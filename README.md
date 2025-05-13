@@ -58,10 +58,10 @@ In this exercise you will:
 # 1) The exact ssh command you ran
 # 2) A detailed, step-by-step explanation of what happened at each stage
 ```
-**TCP connection**: Verbindung zu Port 22 auf `localhost` wurde erfolgreich hergestellt.
-**SSH handshake**: Der Client hat den Host-Key des Servers erhalten. Ich musste bestätigen (`yes`), dass ich dem Fingerprint vertraue.
-**Authentication**: Ich habe mein eigenes Passwort eingegeben → Zugang wurde gewährt.
-**Shell allocation**: Eine neue Shell wurde geöffnet – ich befinde mich nun in einer Remote-Session auf meinem eigenen Rechner.
+* **TCP connection**: Verbindung zu Port 22 auf `localhost` wurde erfolgreich hergestellt.
+* **SSH handshake**: Der Client hat den Host-Key des Servers erhalten. Ich musste bestätigen (`yes`), dass ich dem Fingerprint vertraue.
+* **Authentication**: Ich habe mein eigenes Passwort eingegeben → Zugang wurde gewährt.
+* **Shell allocation**: Eine neue Shell wurde geöffnet – ich befinde mich nun in einer Remote-Session auf meinem eigenen Rechner.
 
 ---
 
