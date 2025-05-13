@@ -129,6 +129,10 @@ Nur wenn sie gültig ist, wird der Zugriff erlaubt – der private Schlüssel wi
    * How SSH reads `~/.ssh/config` and matches hosts.
    * The difference between `HostName` and `Host`.
    * How aliases prevent long commands.
+   * Die Datei ~/.ssh/config wird von SSH automatisch gelesen, um Einstellungen für Verbindungen zu speichern.
+Host ist dabei ein Name, den man sich selbst aussuchen kann – z. B. localhost-alias.
+HostName ist der tatsächliche Servername oder die IP-Adresse (z. B. localhost).
+Durch diese Konfiguration kann man Verbindungen mit kurzen Befehlen wie ssh localhost-alias aufbauen, ohne jedes mal Benutzername und Pfad zum Schlüssel anzugeben.
 
 **Provide:**
 
@@ -139,7 +143,7 @@ Nur wenn sie gültig ist, wird der Zugriff erlaubt – der private Schlüssel wi
 
 ---
 
-### Task 4: SCP File Transfers
+### Task 4: SCP File Transfers (90 Minuten waren hier zu Ende)
 
 **Objective:** Practice copying files securely using `scp`.
 
