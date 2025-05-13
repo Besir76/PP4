@@ -82,8 +82,12 @@ In this exercise you will:
 4. Explain in writing:
 
    * How the **private key** is used to sign challenges.
+   * Der private Schlüssel wird verwendet, um Login-Versuche digital zu signieren.
    * How the **public key** on the server verifies signatures without revealing the private key.
+   * Der Server überprüft diese Signatur mithilfe des öffentlichen Schlüssels.
+Nur wenn sie gültig ist, wird der Zugriff erlaubt – der private Schlüssel wird dabei nicht übertragen.
    * Why Ed25519 is preferred (performance, security).
+   * Ed25519 ist besonders sicher, schnell und effizient. Deshalb ist er der bevorzugte Algorithmus für moderne SSH-Verbindungen.
 
 **Provide:**
 
